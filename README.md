@@ -1,4 +1,4 @@
-# 2do-Taller-Virtual-Bioinform-tica-en-Gen-mica-Viral
+
 Este repositorio se centra en la capacitación práctica en análisis de secuencia del genoma viral, principios científicos, análisis e interpretación de datos genómicos de secuenciación a gran escala.
 
 ![LOGOS](https://github.com/BCVI/Taller-Virtual-Bioinformatica-Genomica-Viral/assets/160988540/59654775-df08-4729-82f6-8b3eaf39afbd)
