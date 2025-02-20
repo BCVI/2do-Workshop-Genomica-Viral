@@ -9,4 +9,4 @@ El módulo se divide en tres partes:
  - Parte 3: Validación de los contigs virales.
 
 ## Como empezar  
-Primero tendrán que iniciar sesión a los servidores como se mostro en el modulo 1 (sesión del 26 de febrero de 2024). Posteriormente, se utilizará el manual contenido en el archivo **Manual_Workshop_BCVI_2024**
+Primero tendrán que iniciar sesión a los servidores como se mostro en el modulo 1 (sesión del 18 de febrero de 2025). Posteriormente, se utilizará el manual contenido en el archivo **Manual_Workshop_BCVI_2024**
