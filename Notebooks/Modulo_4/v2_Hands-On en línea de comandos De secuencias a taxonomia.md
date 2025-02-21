@@ -181,6 +181,14 @@ Puede ver la sintenia de las proteinas usando  la herramienta clinker https://ca
 
 En clinker diríjase a "Genome files", seleccioné todos los archivos .gbk generados >> Submit. Luego de unos minutos podrá ver como las proteínas de los 3 genomas están organizadas de manera similar (sintenia), a pesar de que no sean idénticas. 
 
+Pharokka también permite visualizar la anotación de cada genoma 
+
+```
+pharokka_plotter.py -i phages_arthrobacter_v2.part_002.fa -n pharokka_plot -o Noely_annot/
+
+scp came@132.248.32.20:/home/came/dia4_clustering_taxonomia/proteoma/phages_arthrobacter_v2.fa.split/Noely_annot/pharokka_plot.png Noely_plot.png
+```
+
 **Actividad (opcional). Realice el mismo análisis con el resto de los fagos de Arthrobacter y luego con los fagos de Gordonia.** 
 
 ```bash
