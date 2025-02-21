@@ -3,7 +3,8 @@
 El módulo se divide en cuatro partes: 
 
  - Parte 1: Teoría
- - Parte 2: Ejercicio comparacion genomas.
- - Parte 3: Ejercicio comparacion proteomas
- - Parte 4: Hands-on línea de comandos; De secuencias a taxonomia.
+ - Parte 2: Hands-on línea de comandos; De secuencias a taxonomia.
+ 	- Comparación de genomas
+ 	- Comparación de proteínas
+ 	- Sintenia. 
 
