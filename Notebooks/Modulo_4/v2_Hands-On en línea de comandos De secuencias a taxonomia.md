@@ -7,7 +7,7 @@ A partir de secuencias de fagos, se va a realizar la clasificación, clustering 
 
 ## 1. Realizar clasificación y clustering usando el genoma (VIRIDIC) 
 
-la herramienta **VIRIDIC** no solo se puede cirrer usando la interfaz web, en caso de tener una gran cantidad de contigs/genomas es mejor correrlo usando un servidor de HPC (High-Performance Computing).  
+la herramienta **VIRIDIC** no solo se puede correr usando la interfaz web, en caso de tener una gran cantidad de contigs/genomas es mejor correrlo usando un servidor de HPC (High-Performance Computing).  
 
 Ahora en su `home`cree un diretorio para la el modulo 4 clusterización y taxonomia
 
@@ -23,10 +23,11 @@ cp /home/came/dia4_clustering_taxonomia/phages_*.fasta $HOME/dia4_clustering_tax
 Para correr VIRIDIC en el servidor, se necesita como entrada las secuencias fasta en un solo archivo (igual que en el servidor web).
 
 ```bash
+cd $HOME/dia4_clustering_taxonomia
 #Atención: este comando no deja autocompletar así que deben estar muy seguros de como estan escritos los directorios. 
 #projdir = nombre del directorio donde quieren guardar la salida de VIRIDIC
 #in = archivo con las secuencias fasta.
-/opt/viridic_v1.1/viridic.bash projdir=/home/came/dia4_clustering_taxonomia/resultados_viridic_arthrobacter.out in=/home/came/dia4_clustering_taxonomia/phages_arthrobacter_v2.fasta
+/opt/viridic_v1.1/viridic.bash projdir=$HOME/dia4_clustering_taxonomia/resultados_viridic_arthrobacter.out in=$HOME/dia4_clustering_taxonomia/phages_arthrobacter_v2.fasta
 ```
 
  Ahora tiene un directorio llamado `resultados_viridic_arthrobacter.out/`donde se encuentran todos los archivos temporales y de salida de VIRIDIC. Dentro de este directorio el resultado final se encuentra en `04_VIRIDIC_out`. 
